@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zb</groupId>
-    <artifactId>mydubbox-provider</artifactId>
+    <artifactId>mydubbox-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mydubbox-provider</name>
+    <name>mydubbox-consumer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -50,7 +50,6 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
         <plugins>
