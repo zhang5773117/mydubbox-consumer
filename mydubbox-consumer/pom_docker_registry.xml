@@ -50,6 +50,8 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
+    </dependencyManagement>
+    <!-- new file -->
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
         <plugins>
