@@ -29,7 +29,11 @@ public class HelloController {
 	}
 
 
-
+	@RequestMapping(value = "/hello2")
+	@ResponseBody
+	public String hello2(){
+		return "hello2";
+	}
 
 
 }
